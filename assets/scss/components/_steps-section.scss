@@ -1,0 +1,57 @@
+.steps-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 104px 0 70px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    .container {
+         max-width: 1333px;
+    }
+}
+
+
+.steps-icon {
+    margin-bottom: 15px;
+}
+
+.steps-section_list {
+    @extend %listreset;
+    display: flex;
+    margin: 0 -15px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    li {
+        flex: 0 0 33.33%;
+        max-width: 33%;
+        padding: 0 15px;
+        > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+    h4 {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        text-align: center;
+        color: #000000;
+        max-width: 325px;
+        
+    }
+    p {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        align-items: center;
+        text-align: center;
+        color: #1B1B20;   
+        max-width: 325px;     
+    }
+}

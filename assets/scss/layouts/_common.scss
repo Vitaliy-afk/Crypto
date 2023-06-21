@@ -1,0 +1,59 @@
+#wrapper {
+    overflow: hidden;
+    
+   
+   
+    
+}
+
+body {
+    color: #000000;
+    
+    // letter-spacing: 0.04em;
+}
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1B1B20;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #626262;
+}
+mark {
+    background: none;
+    color: #d61fda;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    max-width: 1545px;
+    
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+// * {
+// 	margin: 0;
+// 	padding: 0;
+// 	box-sizing: border-box;
+// }
+
+
+
+
